@@ -1,0 +1,8 @@
+// we can also use let to declare variable in javascript 
+// javascript are case sensitive
+// some words in javascript are reserved like var so that we can not use declare var using var keyword
+var a=1;
+console.log(a);
+
+a="satish";
+console.log(a);
