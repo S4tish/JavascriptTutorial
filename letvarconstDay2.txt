@@ -1,0 +1,16 @@
+ // let is a block scope and let can not be redeclare
+ // var is not a block scope it is used anywhere in the program
+ // const is used to declare the variable at once then it never change
+
+ var a=56;
+ var b="p";
+ var c=null;
+ const name="satish";
+ name="satish";  // throw an error because once const declare can not be redeclare so that const declare
+ // only once
+
+ {
+    let b="satish";
+    console.log(b);
+ }
+ console.log(b);

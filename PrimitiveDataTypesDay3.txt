@@ -1,0 +1,27 @@
+// There are 7 data types in javascript and this are primitive data types in javascript
+// NN BB SS U
+
+let a=null;  // Null data types
+
+let b=345;   // Number data types
+
+let c=true;  // Boolean Data types
+
+let d=BigInt("567");  // BigInt data types
+
+let e="Satish";   // String Data types
+
+let f=Symbol(" I am a symbol");  // String Data types
+
+let g=undefined;  // Undefined data types
+
+console.log(typeof d);
+
+// Object in Javascript This are non primitive data types in javascript
+const item={ 
+    "satish":true,
+    "shubham":false,
+    "Lovish":67,
+    "Rohan":undefined
+}
+console.log(item["Rohan"]);
