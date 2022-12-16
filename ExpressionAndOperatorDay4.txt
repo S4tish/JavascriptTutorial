@@ -1,0 +1,39 @@
+// Expressions and Operator
+
+// Arithmetic Operator
+let a=45;
+let b=4;
+console.log("a + b =" , a+b);
+console.log("a - b =", a-b);
+console.log("a / b =", a/b);
+console.log("a * b = " , a*b);
+console.log(" a % b = " , a%b);
+console.log(" a ** b = " , a**b);
+console.log("a++ = ", a++);
+console.log("a-- = ", a--);
+
+// Assignment Operator
+a=8;
+a+=1;
+console.log(a);
+
+// Comparison Operator
+let c=5;
+let d="5";
+console.log(c==d);
+console.log(c===d);
+console.log(c!=d);
+
+
+// Logical Operator
+let x=5;
+let y=6;
+console.log(x<y && x==5)
+console.log(!true);
+console.log(!false);
+console.log(x>y || x==5);
+
+// javascript Comments
+// There is two type sof javascript comment
+// 1 single line comment
+// 2 Multinational Comment

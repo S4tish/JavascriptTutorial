@@ -1,0 +1,28 @@
+// Conditional Expressions
+
+// There are three types of conditional Expression
+// 1 if statement
+// 2 if else statement
+// 3 if else if else statement
+
+let a = prompt("hey what you age?");
+a = Number.parseInt(a) //converting a number to a string
+if(a<0){
+    alert("This is a valid age");
+}else{
+    alert("This is invalid type");
+}
+
+if(a<0){
+    alert(" This is an invalid age");
+}
+else if(a<9){
+    alert("You are a kid and you are not capable to drive");
+}
+else if(a<18 && a>=9){
+    alert("You are kid and you think of driving after 18");
+}
+else{
+    alert("You can now drive ");
+}
+console.log("Done");
